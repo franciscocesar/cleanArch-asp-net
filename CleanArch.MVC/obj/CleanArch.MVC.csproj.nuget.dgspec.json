@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.MVC\\CleanArch.MVC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Aplications\\CleanArch.Aplications.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Aplications\\CleanArch.Aplications.csproj",
+        "projectName": "CleanArch.Aplications",
+        "projectPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Aplications\\CleanArch.Aplications.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Domain\\CleanArch.Domain.csproj": {
+                "projectPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Domain\\CleanArch.Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Domain\\CleanArch.Domain.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Domain\\CleanArch.Domain.csproj",
+        "projectName": "CleanArch.Domain",
+        "projectPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Domain\\CleanArch.Domain.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
+        "projectName": "CleanArch.Infra.Data",
+        "projectPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Domain\\CleanArch.Domain.csproj": {
+                "projectPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Domain\\CleanArch.Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj",
+        "projectName": "CleanArch.Infra.IoC",
+        "projectPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Aplications\\CleanArch.Aplications.csproj": {
+                "projectPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Aplications\\CleanArch.Aplications.csproj"
+              },
+              "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Domain\\CleanArch.Domain.csproj": {
+                "projectPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Domain\\CleanArch.Domain.csproj"
+              },
+              "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.MVC\\CleanArch.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.MVC\\CleanArch.MVC.csproj",
+        "projectName": "CleanArch.MVC",
+        "projectPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.MVC\\CleanArch.MVC.csproj",
+        "packagesPath": "C:\\Users\\Francisco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.MVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Francisco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj"
+              },
+              "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj": {
+                "projectPath": "C:\\Users\\Francisco\\source\\repos\\CleanArch\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
