@@ -23,6 +23,10 @@ namespace ClenArch.Domain.Entities
             ValidateDomain(name);
             Name = name;
         }
+        public void Update(string name)
+        {
+
+        }
         public ICollection<Product> Products { get; set; }
 
         private void ValidateDomain(string name)
